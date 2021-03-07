@@ -1,0 +1,201 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 13px;
+  }
+li:hover {
+    border-bottom: 1px solid rgb(105, 105, 105);
+  }
+  
+::placeholder {
+    font-size: 15px;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5%;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: rgb(100, 100, 100);
+    margin: 0px 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    box-shadow: 1px 2px 5px rgb(87, 87, 87);
+    position: relative;
+    top: -3.5px;
+}
+button:active {
+    box-shadow: 0px 2px 3px rgb(95, 95, 95);
+    top: 0px;
+  }
+#F_List{
+    margin :  2px 0px 9px 0px;
+}
+#Move_R_Side{
+    position: fixed;
+    right: 20px;
+}
+#My_L{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    padding-top: 0.5px;
+    padding-left: 4px;
+    padding: 7px 0px 1px 10px;
+    background-color: lightsteelblue;
+    color: white;
+    border: none;
+}
+
+#Main_Part{
+    text-align: center;
+    position: relative;
+    top: 180px;
+}
+
+#G_Input{
+    margin-top: 27px;
+    height: 45px;
+    width: 40%;
+    border: 1px solid lightgray;
+    border-radius: 27px;
+    padding-left: 15px;
+    outline: none;
+}
+#G_Input:hover{
+    box-shadow: 0px 3px 10px grey;
+}
+#G_Input:focus{
+    box-shadow: 0px 3px 10px grey;
+}
+#Buttons{
+    outline: none;
+    position: relative;
+    margin-top: 17px;
+}
+
+#Footer{
+   width: 100%; 
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(235, 232, 232);
+}
+
+#R_Footer{
+    display: inline-block;
+    position: fixed;
+    right: 26px;
+}
+
+#Main_Fot_List{
+    margin: 13px 20px;
+    color: rgb(87, 82, 82);
+}
+
+/*#Shortcuts{
+    cursor: pointer;
+    position: relative;
+    top: 45px;
+}
+
+#L_Shortcuts{
+   position: relative;
+   top:45px; 
+}
+
+#U_S1{
+  font-size: 25px;
+  width: 105px;
+  height: 105px;
+  background-color: rgb(236, 231, 231);
+  border-radius: 50%;
+  padding: 5px 6px 5px 6px;    
+}
+#U_S2{
+    margin-left:45px;
+    font-size: 25px;
+  width: 105px;
+  height: 105px;
+  background-color: rgb(236, 231, 231);
+  border-radius: 50%;
+  padding: 5px 10px 5px 10px;    
+}
+#U_S3{
+    margin-left:45px;
+    font-size: 25px;
+  width: 105px;
+  height: 105px;
+  background-color: rgb(236, 231, 231);
+  border-radius: 50%;
+  padding: 5px 8px 5px 8px;     
+}
+#U_S4{
+    font-size: 25px;
+    width: 105px;
+    height: 105px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;      
+}
+#U_S5{
+    margin-left:45px;
+    font-size: 25px;
+    width: 105px;
+    height: 105px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 50%;
+    padding: 11px 6px 11px 6px;    
+}
+#U_S6{
+    margin-left:45px;
+    font-size: 25px;
+    width: 105px;
+    height: 105px;
+    background-color: rgb(236, 231, 231);
+    border-radius: 50%;
+    padding: 4px 9px 4px 9px;    
+}
+*/
+#Me{
+    border: none;
+    padding: 0;
+    margin: 0px 580px;
+}
+.G-Letters{
+    font-size: 90px;
+    font-weight: 550;
+    font-variant: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: -8px;
+}
+
+.Sep_S_List{
+    margin-right: 16px;
+    font-size: 15px;
+    margin-top: 15px;
+    color: rgb(121, 108, 108)
+}
+
+.Sep_F_List{
+    margin-left: 25px;
+    font-size: 13px;
+    font-style: unset;
+}
+
+.Sep_Fot_List{
+    margin-left: 22px;
+}
+
+hr.new1 {
+    border-top: 0.3px solid lightgrey;
+  }
